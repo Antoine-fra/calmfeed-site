@@ -4,66 +4,311 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="theme-color" content="#14102B">
-<title>Feed — Télécharger sur l'App Store</title>
-<meta name="description" content="Ton fil social, sans le piège. Zéro Reels, zéro distraction. Télécharge Feed sur l'App Store.">
+
+<title>Feed — L'app anti-scroll : ton fil social sans vidéos courtes</title>
+<meta name="description" content="Feed retire les vidéos courtes, le scroll infini et les incitations de ton fil social. Garde tes amis et tes messages, récupère ton temps d'écran. Essai gratuit 3 jours sur iPhone.">
+<link rel="canonical" href="https://getfeed.fr/">
 <meta name="apple-itunes-app" content="app-id=6777745037">
+
+<meta property="og:title" content="Feed — L'app anti-scroll">
+<meta property="og:description" content="Ton fil social sans vidéos courtes ni scroll infini. Garde tes amis, récupère ton temps. Essai gratuit 3 jours sur iPhone.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://getfeed.fr/">
+<meta property="og:image" content="https://getfeed.fr/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:site_name" content="Feed">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Feed — L'app anti-scroll">
+<meta name="twitter:description" content="Ton fil social sans vidéos courtes ni scroll infini. Essai gratuit 3 jours sur iPhone.">
+<meta name="twitter:image" content="https://getfeed.fr/og-image.png">
+
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
 <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-<meta property="og:title" content="Feed">
-<meta property="og:description" content="Ton fil social, sans le piège. Télécharge Feed sur l'App Store.">
-<meta property="og:type" content="website">
+<link rel="preload" href="/fonts/InterBold.ttf" as="font" type="font/ttf" crossorigin>
+<link rel="preload" href="/fonts/PlusJakartaSans-Medium.ttf" as="font" type="font/ttf" crossorigin>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MobileApplication",
+  "name": "Feed — Scroll sous contrôle",
+  "alternateName": "Feed",
+  "url": "https://getfeed.fr/",
+  "installUrl": "https://apps.apple.com/app/feed/id6777745037",
+  "operatingSystem": "iOS 17.0 ou ultérieur",
+  "applicationCategory": "LifestyleApplication",
+  "inLanguage": "fr",
+  "description": "Feed est une app anti-scroll : elle retire les vidéos courtes, le scroll infini et les incitations addictives de ton fil social. Tu gardes tes messages et tes amis, tu récupères ton temps d'écran.",
+  "offers": [
+    { "@type": "Offer", "name": "Abonnement annuel", "price": "29.99", "priceCurrency": "EUR", "description": "29,99 € par an avec 3 jours d'essai gratuit" },
+    { "@type": "Offer", "name": "Abonnement mensuel", "price": "4.99", "priceCurrency": "EUR", "description": "4,99 € par mois" }
+  ],
+  "author": { "@type": "Organization", "name": "Feed", "url": "https://getfeed.fr/" }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "C'est quoi une app anti-scroll ?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Une app anti-scroll te laisse accéder à ton réseau social habituel, mais en retirant les mécaniques conçues pour te retenir : vidéos courtes en boucle, scroll infini, recommandations sans fin, bannières insistantes. Tu gardes l'essentiel — messages, amis, fil — sans le piège attentionnel." }
+    },
+    {
+      "@type": "Question",
+      "name": "Est-ce que je perds mes messages et mes amis ?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Non. Feed n'est pas un blocage ni une détox radicale : tu accèdes au réseau que tu utilises déjà, avec ton compte, tes conversations et ton fil. Seuls les éléments addictifs sont retirés de l'interface." }
+    },
+    {
+      "@type": "Question",
+      "name": "Comment Feed réduit-il mon temps d'écran ?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Feed supprime les vidéos courtes (le format conçu pour scroller à l'infini), masque les incitations à rester, propose un filtre niveaux de gris qui casse le cycle de récompense visuel, et un verrou Face ID qui ajoute une friction volontaire avant l'ouverture. Sans dopamine facile, les sessions raccourcissent naturellement." }
+    },
+    {
+      "@type": "Question",
+      "name": "Combien coûte Feed ?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Feed fonctionne par abonnement : 29,99 € par an (soit 2,50 € par mois, avec 3 jours d'essai gratuit) ou 4,99 € par mois. Annulable à tout moment depuis les réglages de ton compte App Store." }
+    },
+    {
+      "@type": "Question",
+      "name": "Feed collecte-t-il mes données ?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Non. Aucune collecte, aucun tracker, aucune publicité, aucun SDK tiers. Tout se passe sur ton iPhone. Feed ne gagne rien à ce que tu restes connecté — c'est même l'inverse." }
+    },
+    {
+      "@type": "Question",
+      "name": "Sur quels appareils Feed fonctionne-t-il ?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Feed est disponible sur iPhone (iOS 17.0 ou ultérieur), en français, sur l'App Store." }
+    }
+  ]
+}
+</script>
+
 <style>
   @font-face { font-family:'Inter'; src:url('fonts/InterSemiBold.ttf') format('truetype'); font-weight:600; font-display:swap; }
   @font-face { font-family:'Inter'; src:url('fonts/InterBold.ttf') format('truetype'); font-weight:700; font-display:swap; }
   @font-face { font-family:'Plus Jakarta Sans'; src:url('fonts/PlusJakartaSans-Medium.ttf') format('truetype'); font-weight:500; font-display:swap; }
   @font-face { font-family:'Plus Jakarta Sans'; src:url('fonts/PlusJakartaSans-SemiBold.ttf') format('truetype'); font-weight:600; font-display:swap; }
+
+  :root {
+    --cream:#F2EDE4; --violet:#7A5AFF; --glow:#261E4A; --bg:#0B0917; --bg2:#14102B;
+    --muted:#B9B2CC; --faint:rgba(242,237,228,.55); --card:rgba(255,255,255,.05);
+    --border:rgba(255,255,255,.09);
+  }
   * { box-sizing:border-box; margin:0; padding:0; -webkit-font-smoothing:antialiased; }
-  html, body { height:100%; }
+  html { scroll-behavior:smooth; }
   body {
-    font-family:'Inter', -apple-system, system-ui, sans-serif;
-    background:radial-gradient(120% 85% at 50% 0%, #261E4A 0%, #14102B 55%, #080710 100%);
-    color:#F2EDE4;
-    min-height:100vh; min-height:100dvh;
-    display:flex; flex-direction:column; align-items:center; justify-content:center;
-    text-align:center; padding:48px 28px;
-    position:relative; overflow:hidden;
+    font-family:'Plus Jakarta Sans', -apple-system, system-ui, sans-serif;
+    background:var(--bg); color:var(--cream); line-height:1.6;
   }
-  .glow {
-    position:absolute; top:8%; left:50%; transform:translateX(-50%);
-    width:min(90vw, 640px); height:420px; border-radius:50%; pointer-events:none;
-    background:radial-gradient(50% 50% at 50% 50%, rgba(124,96,255,.30) 0%, rgba(124,96,255,0) 70%);
+  h1, h2, h3, .brand, .cta, .cta-small { font-family:'Inter', -apple-system, system-ui, sans-serif; }
+  a { color:inherit; }
+  section { padding:88px 24px; }
+  .wrap { max-width:1040px; margin:0 auto; }
+
+  /* ---- Nav ---- */
+  header {
+    position:sticky; top:0; z-index:50;
+    background:rgba(11,9,23,.82); backdrop-filter:blur(14px); -webkit-backdrop-filter:blur(14px);
+    border-bottom:1px solid var(--border);
   }
-  .mark { position:relative; width:140px; height:78px; margin-bottom:8px;
-    filter:drop-shadow(0 0 26px rgba(242,237,228,.35)); }
+  .nav { max-width:1040px; margin:0 auto; display:flex; align-items:center; gap:26px; padding:14px 24px; }
+  .brand { display:flex; align-items:center; gap:10px; font-weight:700; font-size:19px; letter-spacing:-.4px; text-decoration:none; }
+  .brand svg { width:34px; height:19px; }
+  .nav-links { display:flex; gap:22px; margin-left:auto; font-size:14.5px; font-weight:500; }
+  .nav-links a { text-decoration:none; color:var(--muted); transition:color .15s; }
+  .nav-links a:hover { color:var(--cream); }
+  .cta-small {
+    display:inline-flex; align-items:center; gap:8px; padding:9px 18px; border-radius:999px;
+    background:var(--cream); color:var(--bg2); text-decoration:none; font-size:14.5px; font-weight:700;
+    letter-spacing:-.2px; white-space:nowrap; transition:transform .15s;
+  }
+  .cta-small:hover { transform:translateY(-1px); }
+  .cta-small svg, .cta svg { width:18px; height:18px; flex:none; }
+  @media (max-width:720px) { .nav-links { display:none; } .nav { gap:12px; } .brand { margin-right:auto; } }
+
+  /* ---- Hero ---- */
+  .hero {
+    position:relative; overflow:hidden; text-align:center; padding:96px 24px 80px;
+    background:radial-gradient(110% 75% at 50% 0%, var(--glow) 0%, var(--bg2) 52%, var(--bg) 100%);
+  }
+  .hero .glow {
+    position:absolute; top:-40px; left:50%; transform:translateX(-50%);
+    width:min(92vw,700px); height:440px; border-radius:50%; pointer-events:none;
+    background:radial-gradient(50% 50% at 50% 50%, rgba(124,96,255,.32) 0%, rgba(124,96,255,0) 70%);
+  }
+  .mark { position:relative; width:120px; height:67px; margin:0 auto 26px; filter:drop-shadow(0 0 26px rgba(242,237,228,.35)); }
   .mark svg { width:100%; height:100%; }
-  h1 { position:relative; font-size:56px; font-weight:700; letter-spacing:-2px; margin-top:18px; }
-  .tagline {
-    position:relative; font-family:'Plus Jakarta Sans', sans-serif;
-    font-size:19px; font-weight:500; line-height:1.5; color:#B9B2CC;
-    margin-top:14px; max-width:340px;
+  .hero h1 {
+    position:relative; font-size:clamp(38px, 7vw, 62px); font-weight:700;
+    letter-spacing:-2px; line-height:1.08; max-width:820px; margin:0 auto;
   }
-  .tagline b { color:#F2EDE4; font-weight:600; }
+  .hero h1 em { font-style:normal; color:var(--violet); }
+  .hero .sub {
+    position:relative; font-size:clamp(16px, 2.6vw, 19.5px); font-weight:500; color:var(--muted);
+    max-width:600px; margin:22px auto 0;
+  }
+  .hero .sub b { color:var(--cream); font-weight:600; }
   .cta {
     position:relative; display:inline-flex; align-items:center; gap:12px;
-    margin-top:44px; padding:18px 34px; border-radius:999px;
-    background:#F2EDE4; color:#14102B; text-decoration:none;
-    font-size:19px; font-weight:700; letter-spacing:-0.3px;
+    margin-top:38px; padding:17px 32px; border-radius:999px;
+    background:var(--cream); color:var(--bg2); text-decoration:none;
+    font-size:18px; font-weight:700; letter-spacing:-.3px;
     box-shadow:0 18px 60px rgba(0,0,0,.55), 0 0 0 8px rgba(242,237,228,.08);
-    transition:transform .15s ease, box-shadow .15s ease;
+    transition:transform .15s, box-shadow .15s;
   }
   .cta:hover { transform:translateY(-2px); box-shadow:0 24px 70px rgba(0,0,0,.6), 0 0 0 8px rgba(242,237,228,.12); }
-  .cta svg { width:22px; height:22px; flex:none; }
-  footer {
-    position:absolute; bottom:22px; left:0; right:0;
-    font-family:'Plus Jakarta Sans', sans-serif; font-size:12.5px; color:rgba(242,237,228,.35);
+  .hero .under-cta { position:relative; margin-top:16px; font-size:13.5px; color:var(--faint); }
+
+  /* ---- Phone mockup ---- */
+  .phone-zone { position:relative; margin:64px auto 0; display:flex; justify-content:center; }
+  .phone {
+    width:280px; border-radius:44px; padding:10px;
+    background:#1a1730; border:1px solid rgba(255,255,255,.14);
+    box-shadow:0 40px 110px rgba(0,0,0,.65);
   }
-  footer a { color:inherit; }
+  .screen { border-radius:36px; overflow:hidden; background:#0d0b1a; padding:20px 16px 16px; text-align:left; }
+  .notch { width:86px; height:22px; border-radius:999px; background:#000; margin:0 auto 16px; }
+  .post { background:rgba(255,255,255,.06); border-radius:14px; padding:12px; margin-bottom:10px; }
+  .post .row { display:flex; align-items:center; gap:8px; margin-bottom:9px; }
+  .avatar { width:26px; height:26px; border-radius:50%; background:linear-gradient(135deg,#7A5AFF,#4A3B99); }
+  .avatar.g2 { background:linear-gradient(135deg,#5AC8FA,#2E6FA8); }
+  .uname { height:8px; width:74px; border-radius:4px; background:rgba(255,255,255,.22); }
+  .pic { height:96px; border-radius:10px; background:linear-gradient(135deg,#33295E,#191434); }
+  .pic.p2 { height:74px; background:linear-gradient(135deg,#173a4d,#101d33); }
+  .blocked {
+    border:1px dashed rgba(255,90,80,.5); border-radius:14px; padding:11px 12px; margin-bottom:10px;
+    display:flex; align-items:center; gap:9px; font-size:11px; color:#ff8d85; font-weight:600;
+  }
+  .blocked s { color:rgba(255,141,133,.65); }
+  .pill-nav {
+    margin-top:14px; display:flex; justify-content:space-around; align-items:center;
+    background:rgba(255,255,255,.10); border-radius:999px; padding:9px 12px;
+  }
+  .pill-nav span { width:17px; height:17px; border-radius:5px; background:rgba(242,237,228,.4); }
+  .pill-nav span.active { background:var(--cream); border-radius:50%; }
+
+  /* ---- Stat band ---- */
+  .stats { background:var(--bg2); border-top:1px solid var(--border); border-bottom:1px solid var(--border); text-align:center; }
+  .stats .wrap { display:flex; flex-wrap:wrap; justify-content:center; gap:48px 84px; }
+  .stat .num { font-family:'Inter'; font-size:46px; font-weight:700; letter-spacing:-1.5px; color:var(--cream); }
+  .stat .num.red { color:#FF6B61; }
+  .stat .lbl { font-size:14.5px; color:var(--muted); margin-top:4px; max-width:220px; }
+  .stats .src { margin-top:34px; font-size:12px; color:var(--faint); }
+
+  /* ---- Sections communes ---- */
+  .kicker { font-size:14px; font-weight:600; color:var(--violet); margin-bottom:12px; }
+  h2 { font-size:clamp(28px, 4.6vw, 40px); font-weight:700; letter-spacing:-1.2px; line-height:1.15; max-width:640px; }
+  .lead { color:var(--muted); max-width:620px; margin-top:16px; font-size:17px; }
+
+  /* ---- Features ---- */
+  .grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr)); gap:16px; margin-top:44px; }
+  .card {
+    background:var(--card); border:1px solid var(--border); border-radius:20px; padding:26px;
+  }
+  .card .ico {
+    width:44px; height:44px; border-radius:12px; display:flex; align-items:center; justify-content:center;
+    background:rgba(122,90,255,.16); margin-bottom:16px; font-size:20px;
+  }
+  .card h3 { font-size:18.5px; font-weight:600; letter-spacing:-.4px; margin-bottom:8px; }
+  .card p { font-size:14.5px; color:var(--muted); }
+
+  /* ---- Steps ---- */
+  .steps { counter-reset:step; display:grid; grid-template-columns:repeat(auto-fit, minmax(240px, 1fr)); gap:16px; margin-top:44px; }
+  .step { background:var(--card); border:1px solid var(--border); border-radius:20px; padding:26px; }
+  .step::before {
+    counter-increment:step; content:counter(step);
+    font-family:'Inter'; display:flex; align-items:center; justify-content:center;
+    width:36px; height:36px; border-radius:50%; background:var(--violet); color:#fff;
+    font-weight:700; font-size:16px; margin-bottom:16px;
+  }
+  .step h3 { font-size:18px; font-weight:600; letter-spacing:-.4px; margin-bottom:8px; }
+  .step p { font-size:14.5px; color:var(--muted); }
+
+  /* ---- Manifesto / SEO copy ---- */
+  .manifesto { background:var(--bg2); border-top:1px solid var(--border); border-bottom:1px solid var(--border); }
+  .manifesto .cols { display:grid; grid-template-columns:repeat(auto-fit, minmax(300px, 1fr)); gap:40px; margin-top:40px; }
+  .manifesto h3 { font-size:19px; font-weight:600; letter-spacing:-.4px; margin-bottom:10px; }
+  .manifesto p { font-size:15px; color:var(--muted); }
+  .manifesto p + p { margin-top:10px; }
+  .manifesto b { color:var(--cream); font-weight:600; }
+
+  /* ---- Pricing ---- */
+  .plans { display:grid; grid-template-columns:repeat(auto-fit, minmax(260px, 1fr)); gap:16px; margin-top:44px; max-width:680px; }
+  .plan { background:var(--card); border:1px solid var(--border); border-radius:22px; padding:30px; position:relative; }
+  .plan.best { border-color:var(--violet); box-shadow:0 0 0 1px var(--violet), 0 20px 60px rgba(122,90,255,.14); }
+  .plan .badge {
+    position:absolute; top:-13px; left:26px; background:var(--violet); color:#fff;
+    font-family:'Inter'; font-size:12px; font-weight:700; padding:4px 12px; border-radius:999px;
+  }
+  .plan .name { font-size:15px; font-weight:600; color:var(--muted); }
+  .plan .price { font-family:'Inter'; font-size:38px; font-weight:700; letter-spacing:-1.5px; margin-top:6px; }
+  .plan .price small { font-size:16px; font-weight:600; color:var(--muted); letter-spacing:0; }
+  .plan .note { font-size:13.5px; color:var(--faint); margin-top:6px; }
+  .plan ul { list-style:none; margin-top:18px; }
+  .plan li { font-size:14px; color:var(--muted); padding-left:24px; position:relative; margin-top:8px; }
+  .plan li::before { content:"✓"; position:absolute; left:0; color:var(--violet); font-weight:700; }
+
+  /* ---- FAQ ---- */
+  .faq-list { margin-top:40px; max-width:760px; }
+  details {
+    border:1px solid var(--border); border-radius:16px; background:var(--card);
+    padding:0 22px; margin-bottom:10px;
+  }
+  summary {
+    cursor:pointer; list-style:none; display:flex; justify-content:space-between; align-items:center; gap:16px;
+    font-family:'Inter'; font-weight:600; font-size:16.5px; letter-spacing:-.3px; padding:19px 0;
+  }
+  summary::-webkit-details-marker { display:none; }
+  summary::after { content:"+"; font-size:22px; color:var(--violet); flex:none; transition:transform .2s; }
+  details[open] summary::after { transform:rotate(45deg); }
+  details p { padding:0 0 20px; font-size:15px; color:var(--muted); }
+
+  /* ---- Final CTA ---- */
+  .final { text-align:center; background:radial-gradient(90% 100% at 50% 100%, var(--glow) 0%, var(--bg) 70%); }
+  .final h2 { margin:0 auto; }
+  .final .lead { margin-left:auto; margin-right:auto; }
+
+  footer { border-top:1px solid var(--border); padding:34px 24px 44px; }
+  footer .wrap { display:flex; flex-wrap:wrap; gap:14px 28px; align-items:center; justify-content:space-between; font-size:13.5px; color:var(--faint); }
+  footer nav { display:flex; flex-wrap:wrap; gap:18px; }
+  footer a { text-decoration:none; }
+  footer a:hover { color:var(--cream); }
 </style>
 </head>
 <body>
-  <div class="glow" aria-hidden="true"></div>
 
+<header>
+  <div class="nav">
+    <a class="brand" href="/" aria-label="Feed — accueil">
+      <svg viewBox="0 0 270 150" fill="none" aria-hidden="true">
+        <path d="M 135 75 C 118 58 98 40 73 40 C 48 40 30 58 30 75 C 30 92 48 110 73 110 C 98 110 118 92 135 75 C 152 58 172 40 197 40 C 222 40 240 58 240 75 C 240 92 222 110 197 110 C 172 110 152 92 135 75 Z"
+          pathLength="100" stroke-dasharray="66 13 21 0" stroke="#F2EDE4" stroke-width="21" stroke-linecap="round"/>
+      </svg>
+      Feed
+    </a>
+    <nav class="nav-links" aria-label="Navigation principale">
+      <a href="#fonctionnalites">Fonctionnalités</a>
+      <a href="#comment">Comment ça marche</a>
+      <a href="#prix">Prix</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+    <a class="cta-small" href="https://apps.apple.com/app/feed/id6777745037">
+      <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.53 4.08ZM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25Z"/></svg>
+      App Store
+    </a>
+  </div>
+</header>
+
+<main>
+
+<!-- ============ HERO ============ -->
+<section class="hero">
+  <div class="glow" aria-hidden="true"></div>
   <div class="mark" aria-hidden="true">
     <svg viewBox="0 0 270 150" fill="none">
       <path d="M 135 75 C 118 58 98 40 73 40 C 48 40 30 58 30 75 C 30 92 48 110 73 110 C 98 110 118 92 135 75 C 152 58 172 40 197 40 C 222 40 240 58 240 75 C 240 92 222 110 197 110 C 172 110 152 92 135 75 Z"
@@ -71,14 +316,227 @@
     </svg>
   </div>
 
-  <h1>Feed</h1>
-  <p class="tagline">Ton fil social, <b>sans le piège</b><br>Zéro Reels, zéro distraction</p>
+  <h1>Ton fil social, <em>sans le scroll infini</em></h1>
+  <p class="sub">Feed est l'app <b>anti-scroll</b> pour iPhone : elle retire les <b>vidéos courtes</b>, les recommandations sans fin et les incitations de ton réseau social. Tu gardes tes amis et tes messages. Tu récupères ton temps.</p>
 
   <a class="cta" href="https://apps.apple.com/app/feed/id6777745037">
     <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.53 4.08ZM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25Z"/></svg>
     Télécharger sur l'App Store
   </a>
+  <p class="under-cta">Essai gratuit 3 jours · iPhone (iOS 17+) · En français</p>
 
-  <footer>© 2026 Feed · <a href="privacy.html">Confidentialité</a> · <a href="support.html">Support</a></footer>
+  <div class="phone-zone">
+    <div class="phone" role="img" aria-label="Aperçu de l'app Feed : un fil social épuré où les vidéos courtes sont bloquées">
+      <div class="screen">
+        <div class="notch" aria-hidden="true"></div>
+        <div class="post">
+          <div class="row"><div class="avatar"></div><div class="uname"></div></div>
+          <div class="pic"></div>
+        </div>
+        <div class="blocked">🚫 <span><s>Vidéos courtes</s> — retirées par Feed</span></div>
+        <div class="post">
+          <div class="row"><div class="avatar g2"></div><div class="uname"></div></div>
+          <div class="pic p2"></div>
+        </div>
+        <div class="pill-nav" aria-hidden="true">
+          <span class="active"></span><span></span><span></span><span></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ STATS ============ -->
+<section class="stats" aria-label="Le coût du scroll">
+  <div class="wrap">
+    <div class="stat"><div class="num red">2 h 30</div><div class="lbl">passées chaque jour sur les réseaux sociaux en moyenne</div></div>
+    <div class="stat"><div class="num red">1 mois</div><div class="lbl">entier perdu chaque année, à raison de 2 h de scroll par jour</div></div>
+    <div class="stat"><div class="num">3 jours</div><div class="lbl">d'essai gratuit pour sentir la différence</div></div>
+  </div>
+  <p class="src">Estimation basée sur 2 h/jour : 2 × 365 ÷ 24 ≈ 30 jours par an.</p>
+</section>
+
+<!-- ============ FEATURES ============ -->
+<section id="fonctionnalites">
+  <div class="wrap">
+    <p class="kicker">Fonctionnalités</p>
+    <h2>Ce que Feed enlève. Et ce qu'il te laisse.</h2>
+    <p class="lead">Les réseaux sociaux sont conçus pour maximiser ton temps d'écran. Feed inverse la logique : chaque fonctionnalité existe pour te rendre du temps, pas pour t'en prendre.</p>
+
+    <div class="grid">
+      <div class="card">
+        <div class="ico" aria-hidden="true">🚫</div>
+        <h3>Vidéos courtes supprimées</h3>
+        <p>Le format le plus addictif — des boucles de quelques secondes optimisées pour scroller à l'infini — disparaît complètement de ton fil et de la navigation.</p>
+      </div>
+      <div class="card">
+        <div class="ico" aria-hidden="true">🔕</div>
+        <h3>Incitations masquées</h3>
+        <p>Bannières « ouvre l'app », rappels insistants, éléments de rétention : retirés. Il reste ton fil, tes amis, tes messages.</p>
+      </div>
+      <div class="card">
+        <div class="ico" aria-hidden="true">🎛️</div>
+        <h3>Filtre niveaux de gris</h3>
+        <p>Un réglage désature les couleurs de ton fil pour casser le cycle de récompense visuelle. Moins de dopamine, moins d'envie de rester.</p>
+      </div>
+      <div class="card">
+        <div class="ico" aria-hidden="true">🔒</div>
+        <h3>Verrou Face ID</h3>
+        <p>Ajoute une friction volontaire avant chaque ouverture. Une seconde de pause suffit souvent à éviter une session de 40 minutes.</p>
+      </div>
+      <div class="card">
+        <div class="ico" aria-hidden="true">🧭</div>
+        <h3>Navigation épurée</h3>
+        <p>Quatre onglets essentiels — accueil, messages, recherche, profil — dans une interface rapide, calme et sans pièges.</p>
+      </div>
+      <div class="card">
+        <div class="ico" aria-hidden="true">🛡️</div>
+        <h3>Zéro collecte de données</h3>
+        <p>Pas de pub, pas de tracker, pas de SDK tiers. Tout se passe sur ton iPhone. Feed ne gagne rien à ce que tu restes.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ HOW ============ -->
+<section id="comment">
+  <div class="wrap">
+    <p class="kicker">Comment ça marche</p>
+    <h2>Trois minutes pour reprendre la main</h2>
+
+    <div class="steps">
+      <div class="step">
+        <h3>Télécharge Feed</h3>
+        <p>Sur l'App Store, avec 3 jours d'essai gratuit. Un onboarding te montre combien d'heures le scroll te coûte réellement, selon ton usage.</p>
+      </div>
+      <div class="step">
+        <h3>Connecte ton réseau</h3>
+        <p>Tu retrouves ton compte habituel, ton fil et tes conversations — mais dans une interface débarrassée des vidéos courtes et du scroll infini.</p>
+      </div>
+      <div class="step">
+        <h3>Choisis tes garde-fous</h3>
+        <p>Niveaux de gris, verrou Face ID, notifications maîtrisées : tu règles le niveau de friction qui te convient. Modifiable à tout moment.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ MANIFESTO / SEO COPY ============ -->
+<section class="manifesto">
+  <div class="wrap">
+    <p class="kicker">Pourquoi Feed</p>
+    <h2>Réduire son temps d'écran sans tout supprimer</h2>
+
+    <div class="cols">
+      <div>
+        <h3>Pourquoi le scroll infini est-il si difficile à arrêter ?</h3>
+        <p>Le scroll infini fonctionne comme une machine à sous : tu ne sais jamais ce que la prochaine vidéo va te montrer, alors ton cerveau continue de tirer le levier. Les vidéos courtes amplifient le mécanisme avec une récompense toutes les quelques secondes.</p>
+        <p>Ce n'est pas un manque de volonté : ces interfaces sont <b>conçues par des équipes entières pour capter ton attention</b>. La solution n'est pas de « faire plus d'efforts », mais de changer d'interface.</p>
+      </div>
+      <div>
+        <h3>Pourquoi ne pas simplement supprimer ses comptes ?</h3>
+        <p>Parce que tes amis, tes groupes et tes conversations sont là. La détox radicale échoue souvent pour cette raison : elle coupe le lien social en même temps que le piège.</p>
+        <p>Feed propose une troisième voie : <b>garder le réseau, retirer les mécaniques addictives</b>. Tu restes joignable, tu suis les gens qui comptent — sans l'aspirateur à attention.</p>
+      </div>
+      <div>
+        <h3>Une app de bien-être numérique qui n'a rien à te vendre</h3>
+        <p>Le modèle des réseaux sociaux repose sur la publicité : plus tu restes, plus ils gagnent. Feed fonctionne par abonnement, <b>sans pub et sans collecte de données</b> — son seul intérêt est que tu sois satisfait du temps récupéré.</p>
+        <p>Résultat : aucune fonctionnalité de Feed n'est conçue pour te retenir. C'est rare, et c'est le principe.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PRICING ============ -->
+<section id="prix">
+  <div class="wrap">
+    <p class="kicker">Prix</p>
+    <h2>Moins cher qu'un café par mois</h2>
+    <p class="lead">Un abonnement simple, annulable à tout moment depuis ton compte App Store. Et 3 jours pour essayer gratuitement.</p>
+
+    <div class="plans">
+      <div class="plan best">
+        <span class="badge">3 jours gratuits</span>
+        <div class="name">Annuel</div>
+        <div class="price">29,99 €<small>/an</small></div>
+        <p class="note">soit 2,50 €/mois · −50 % vs mensuel</p>
+        <ul>
+          <li>Essai gratuit de 3 jours</li>
+          <li>Toutes les fonctionnalités</li>
+          <li>Annulable à tout moment</li>
+        </ul>
+      </div>
+      <div class="plan">
+        <div class="name">Mensuel</div>
+        <div class="price">4,99 €<small>/mois</small></div>
+        <p class="note">sans engagement</p>
+        <ul>
+          <li>Toutes les fonctionnalités</li>
+          <li>Annulable à tout moment</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section id="faq">
+  <div class="wrap">
+    <p class="kicker">FAQ</p>
+    <h2>Questions fréquentes</h2>
+
+    <div class="faq-list">
+      <details>
+        <summary>C'est quoi une app anti-scroll ?</summary>
+        <p>Une app anti-scroll te laisse accéder à ton réseau social habituel, mais en retirant les mécaniques conçues pour te retenir : vidéos courtes en boucle, scroll infini, recommandations sans fin, bannières insistantes. Tu gardes l'essentiel — messages, amis, fil — sans le piège attentionnel.</p>
+      </details>
+      <details>
+        <summary>Est-ce que je perds mes messages et mes amis ?</summary>
+        <p>Non. Feed n'est pas un blocage ni une détox radicale : tu accèdes au réseau que tu utilises déjà, avec ton compte, tes conversations et ton fil. Seuls les éléments addictifs sont retirés de l'interface.</p>
+      </details>
+      <details>
+        <summary>Comment Feed réduit-il mon temps d'écran ?</summary>
+        <p>Feed supprime les vidéos courtes (le format conçu pour scroller à l'infini), masque les incitations à rester, propose un filtre niveaux de gris qui casse le cycle de récompense visuel, et un verrou Face ID qui ajoute une friction volontaire avant l'ouverture. Sans dopamine facile, les sessions raccourcissent naturellement.</p>
+      </details>
+      <details>
+        <summary>Combien coûte Feed ?</summary>
+        <p>Feed fonctionne par abonnement : 29,99 € par an (soit 2,50 € par mois, avec 3 jours d'essai gratuit) ou 4,99 € par mois. Annulable à tout moment depuis les réglages de ton compte App Store.</p>
+      </details>
+      <details>
+        <summary>Feed collecte-t-il mes données ?</summary>
+        <p>Non. Aucune collecte, aucun tracker, aucune publicité, aucun SDK tiers. Tout se passe sur ton iPhone. Feed ne gagne rien à ce que tu restes connecté — c'est même l'inverse.</p>
+      </details>
+      <details>
+        <summary>Sur quels appareils Feed fonctionne-t-il ?</summary>
+        <p>Feed est disponible sur iPhone (iOS 17.0 ou ultérieur), en français, sur l'<a href="https://apps.apple.com/app/feed/id6777745037">App Store</a>.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FINAL CTA ============ -->
+<section class="final">
+  <h2>Et si tu récupérais un mois par an ?</h2>
+  <p class="lead">3 jours d'essai gratuit. Aucune donnée collectée. Annulable en deux taps.</p>
+  <a class="cta" href="https://apps.apple.com/app/feed/id6777745037">
+    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.53 4.08ZM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25Z"/></svg>
+    Télécharger Feed sur l'App Store
+  </a>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>© 2026 Feed · getfeed.fr</span>
+    <nav aria-label="Liens légaux">
+      <a href="/privacy.html">Confidentialité</a>
+      <a href="/privacy-choices.html">Choix de confidentialité</a>
+      <a href="/support.html">Support</a>
+      <a href="https://apps.apple.com/app/feed/id6777745037">App Store</a>
+    </nav>
+  </div>
+</footer>
+
 </body>
 </html>
