@@ -164,34 +164,6 @@
   .cta:hover { transform:translateY(-2px); box-shadow:0 24px 70px rgba(0,0,0,.6), 0 0 0 8px rgba(242,237,228,.12); }
   .hero .under-cta { position:relative; margin-top:16px; font-size:13.5px; color:var(--faint); }
 
-  /* ---- Phone mockup ---- */
-  .phone-zone { position:relative; margin:64px auto 0; display:flex; justify-content:center; }
-  .phone {
-    width:280px; border-radius:44px; padding:10px;
-    background:#1a1730; border:1px solid rgba(255,255,255,.14);
-    box-shadow:0 40px 110px rgba(0,0,0,.65);
-  }
-  .screen { border-radius:36px; overflow:hidden; background:#0d0b1a; padding:20px 16px 16px; text-align:left; }
-  .notch { width:86px; height:22px; border-radius:999px; background:#000; margin:0 auto 16px; }
-  .post { background:rgba(255,255,255,.06); border-radius:14px; padding:12px; margin-bottom:10px; }
-  .post .row { display:flex; align-items:center; gap:8px; margin-bottom:9px; }
-  .avatar { width:26px; height:26px; border-radius:50%; background:linear-gradient(135deg,#7A5AFF,#4A3B99); }
-  .avatar.g2 { background:linear-gradient(135deg,#5AC8FA,#2E6FA8); }
-  .uname { height:8px; width:74px; border-radius:4px; background:rgba(255,255,255,.22); }
-  .pic { height:96px; border-radius:10px; background:linear-gradient(135deg,#33295E,#191434); }
-  .pic.p2 { height:74px; background:linear-gradient(135deg,#173a4d,#101d33); }
-  .blocked {
-    border:1px dashed rgba(255,90,80,.5); border-radius:14px; padding:11px 12px; margin-bottom:10px;
-    display:flex; align-items:center; gap:9px; font-size:11px; color:#ff8d85; font-weight:600;
-  }
-  .blocked s { color:rgba(255,141,133,.65); }
-  .pill-nav {
-    margin-top:14px; display:flex; justify-content:space-around; align-items:center;
-    background:rgba(255,255,255,.10); border-radius:999px; padding:9px 12px;
-  }
-  .pill-nav span { width:17px; height:17px; border-radius:5px; background:rgba(242,237,228,.4); }
-  .pill-nav span.active { background:var(--cream); border-radius:50%; }
-
   /* ---- Real app proof ---- */
   .in-action { background:#0e0b1d; border-top:1px solid var(--border); border-bottom:1px solid var(--border); overflow:hidden; }
   .in-action .wrap { display:grid; grid-template-columns:minmax(0,1fr) minmax(250px,340px); align-items:center; gap:70px; }
@@ -344,25 +316,6 @@
     <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.53 4.08ZM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25Z"/></svg>
     Télécharger sur l'App Store
   </a>
-  <div class="phone-zone">
-    <div class="phone" role="img" aria-label="Aperçu de l'app Feed : un fil social épuré où les vidéos courtes sont bloquées">
-      <div class="screen">
-        <div class="notch" aria-hidden="true"></div>
-        <div class="post">
-          <div class="row"><div class="avatar"></div><div class="uname"></div></div>
-          <div class="pic"></div>
-        </div>
-        <div class="blocked">🚫 <span><s>Vidéos courtes</s> — retirées par Feed</span></div>
-        <div class="post">
-          <div class="row"><div class="avatar g2"></div><div class="uname"></div></div>
-          <div class="pic p2"></div>
-        </div>
-        <div class="pill-nav" aria-hidden="true">
-          <span class="active"></span><span></span><span></span><span></span>
-        </div>
-      </div>
-    </div>
-  </div>
 </section>
 
 <!-- ============ REAL APP SCREENSHOT ============ -->
