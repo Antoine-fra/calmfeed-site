@@ -5,13 +5,13 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="theme-color" content="#14102B">
 
-<title>App anti-scroll iPhone : bloque les Reels | Feed</title>
-<meta name="description" content="Feed est l'app anti-scroll française pour iPhone : bloque les Reels et le scroll infini d'Instagram, sans perdre tes messages ni tes proches.">
+<title>Instagram sans Reels sur iPhone | Feed, app anti-scroll</title>
+<meta name="description" content="Feed rend Instagram plus calme sur iPhone : garde tes messages et tes proches, sans Reels, recommandations ni scroll infini.">
 <link rel="canonical" href="https://getfeed.fr/">
 <meta name="apple-itunes-app" content="app-id=6777745037">
 
-<meta property="og:title" content="Feed — L'app anti-scroll pour Instagram">
-<meta property="og:description" content="Bloque les Reels et le scroll infini. Garde tes messages, tes proches et le contrôle de ton temps.">
+<meta property="og:title" content="Feed — Tes messages. Pas les Reels.">
+<meta property="og:description" content="Garde Instagram pour tes proches et tes messages, sans Reels ni scroll infini.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://getfeed.fr/">
 <meta property="og:image" content="https://getfeed.fr/og-image.png">
@@ -20,8 +20,8 @@
 <meta property="og:locale" content="fr_FR">
 <meta property="og:site_name" content="Feed">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Feed — L'app anti-scroll pour Instagram">
-<meta name="twitter:description" content="Bloque les Reels et le scroll infini. Garde tes messages et le contrôle de ton temps.">
+<meta name="twitter:title" content="Feed — Tes messages. Pas les Reels.">
+<meta name="twitter:description" content="Garde Instagram pour tes proches et tes messages, sans Reels ni scroll infini.">
 <meta name="twitter:image" content="https://getfeed.fr/og-image.png">
 
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
@@ -41,12 +41,32 @@
   "operatingSystem": "iOS 17.0 ou ultérieur",
   "applicationCategory": "LifestyleApplication",
   "inLanguage": "fr",
-  "description": "Feed est une app anti-scroll française pour iPhone. Elle bloque les Reels, le scroll infini et les incitations addictives d'Instagram, tout en gardant les messages et les proches.",
+  "description": "Feed est une app anti-scroll française pour iPhone. Elle garde les messages et les proches, sans Reels, recommandations ni scroll infini sur Instagram.",
   "offers": [
     { "@type": "Offer", "name": "Abonnement annuel", "price": "29.99", "priceCurrency": "EUR", "description": "29,99 € par an avec 3 jours d'essai gratuit" },
     { "@type": "Offer", "name": "Abonnement mensuel", "price": "4.99", "priceCurrency": "EUR", "description": "4,99 € par mois" }
   ],
   "author": { "@type": "Organization", "name": "Feed", "url": "https://getfeed.fr/" }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "name": "Feed",
+      "url": "https://getfeed.fr/",
+      "logo": "https://getfeed.fr/apple-touch-icon.png",
+      "sameAs": ["https://apps.apple.com/app/feed/id6777745037"]
+    },
+    {
+      "@type": "WebSite",
+      "name": "Feed",
+      "url": "https://getfeed.fr/",
+      "inLanguage": "fr-FR"
+    }
+  ]
 }
 </script>
 <script type="application/ld+json">
@@ -81,6 +101,11 @@
     },
     {
       "@type": "Question",
+      "name": "Mon compte Instagram reste-t-il en sécurité ?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Oui. Tu te connectes directement à ton compte dans Feed : l'app ne collecte ni ne stocke ton identifiant ou ton mot de passe. Ta session reste sur ton iPhone." }
+    },
+    {
+      "@type": "Question",
       "name": "Sur quels appareils Feed fonctionne-t-il ?",
       "acceptedAnswer": { "@type": "Answer", "text": "Feed est disponible sur iPhone (iOS 17.0 ou ultérieur), en français, sur l'App Store." }
     }
@@ -107,6 +132,9 @@
   }
   h1, h2, h3, .brand, .cta, .cta-small { font-family:'Inter', -apple-system, system-ui, sans-serif; }
   a { color:inherit; }
+  a:focus-visible, summary:focus-visible { outline:3px solid var(--cream); outline-offset:4px; }
+  .skip-link { position:absolute; left:16px; top:12px; z-index:100; transform:translateY(-160%); padding:10px 14px; border-radius:10px; background:var(--cream); color:var(--bg); font-weight:700; text-decoration:none; }
+  .skip-link:focus { transform:translateY(0); }
   section { padding:88px 24px; }
   .wrap { max-width:1040px; margin:0 auto; }
 
@@ -244,6 +272,7 @@
   .plan ul { list-style:none; margin-top:18px; }
   .plan li { font-size:14px; color:var(--muted); padding-left:24px; position:relative; margin-top:8px; }
   .plan li::before { content:"✓"; position:absolute; left:0; color:var(--violet); font-weight:700; }
+  .plan .cta-small { margin-top:24px; }
 
   /* ---- FAQ ---- */
   .faq-list { margin-top:40px; max-width:760px; }
@@ -270,9 +299,15 @@
   footer nav { display:flex; flex-wrap:wrap; gap:18px; }
   footer a { text-decoration:none; }
   footer a:hover { color:var(--cream); }
+  @media (prefers-reduced-motion:reduce) {
+    html { scroll-behavior:auto; }
+    *, *::before, *::after { animation-duration:.01ms !important; animation-iteration-count:1 !important; transition-duration:.01ms !important; }
+  }
 </style>
 </head>
 <body>
+
+<a class="skip-link" href="#contenu">Aller au contenu</a>
 
 <header>
   <div class="nav">
@@ -297,7 +332,7 @@
   </div>
 </header>
 
-<main>
+<main id="contenu">
 
 <!-- ============ HERO ============ -->
 <section class="hero">
@@ -309,26 +344,27 @@
     </svg>
   </div>
 
-  <h1>L'app anti-scroll qui <em>bloque les Reels</em></h1>
-  <p class="sub">Feed rend Instagram plus calme sur iPhone : <b>Reels, recommandations et scroll infini disparaissent.</b> Tes messages, tes proches et ton fil restent là.</p>
+  <h1>Tes messages. <em>Pas les Reels.</em></h1>
+  <p class="sub">Feed garde Instagram utile sur iPhone : <b>messages, proches et fil restent là.</b> Reels, recommandations et scroll infini disparaissent.</p>
 
   <a class="cta" href="https://apps.apple.com/app/feed/id6777745037">
     <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.53 4.08ZM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25Z"/></svg>
-    Télécharger sur l'App Store
+    Essayer Feed 3 jours gratuitement
   </a>
+  <p class="under-cta">Puis 29,99 € / an · Annulable à tout moment</p>
 </section>
 
 <!-- ============ REAL APP SCREENSHOT ============ -->
 <section class="in-action" aria-labelledby="feed-en-action">
   <div class="wrap">
     <div class="in-action-copy">
-      <p class="kicker">Instagram, sans le piège</p>
-      <h2 id="feed-en-action">Le fil que tu voulais ouvrir. Pas celui qui te retient.</h2>
-      <p class="lead">Feed garde l'accès à Instagram, mais met de côté les éléments qui font dérailler une simple vérification de messages.</p>
+      <p class="kicker">Instagram, sans la spirale</p>
+      <h2 id="feed-en-action">Tu ouvres pour répondre. Tu ne tombes pas dans les Reels.</h2>
+      <p class="lead">Feed préserve ce pour quoi tu viens sur Instagram, et retire les éléments qui font dérailler une simple vérification de messages.</p>
       <ul class="checklist">
-        <li>Les Reels et leurs boucles disparaissent du fil</li>
-        <li>Tu restes joignable et tu retrouves tes messages</li>
-        <li>Une navigation sobre, pensée pour fermer l'app naturellement</li>
+        <li>Les Reels, suggestions et boucles disparaissent du fil</li>
+        <li>Tu restes joignable et retrouves tes messages</li>
+        <li>Ton compte et ta session restent sur ton iPhone</li>
       </ul>
     </div>
     <figure class="real-phone">
@@ -338,13 +374,13 @@
 </section>
 
 <!-- ============ STATS ============ -->
-<section class="stats" aria-label="Le coût du scroll">
+<section class="stats" aria-label="Ce que Feed préserve">
   <div class="wrap">
-    <div class="stat"><div class="num red">2 h 30</div><div class="lbl">passées chaque jour sur les réseaux sociaux en moyenne</div></div>
-    <div class="stat"><div class="num red">1 mois</div><div class="lbl">entier perdu chaque année, à raison de 2 h de scroll par jour</div></div>
+    <div class="stat"><div class="num">Messages</div><div class="lbl">pour rester joignable</div></div>
+    <div class="stat"><div class="num">Proches</div><div class="lbl">pour garder le lien</div></div>
     <div class="stat"><div class="num">3 jours</div><div class="lbl">d'essai gratuit pour sentir la différence</div></div>
   </div>
-  <p class="src">Estimation basée sur 2 h/jour : 2 × 365 ÷ 24 ≈ 30 jours par an.</p>
+  <p class="src">Feed retire les éléments de rétention, pas les personnes qui comptent.</p>
 </section>
 
 <!-- ============ FEATURES ============ -->
@@ -479,6 +515,7 @@
           <li>Toutes les fonctionnalités</li>
           <li>Annulable à tout moment</li>
         </ul>
+        <a class="cta-small" href="https://apps.apple.com/app/feed/id6777745037">Essayer 3 jours</a>
       </div>
       <div class="plan">
         <div class="name">Mensuel</div>
@@ -488,6 +525,7 @@
           <li>Toutes les fonctionnalités</li>
           <li>Annulable à tout moment</li>
         </ul>
+        <a class="cta-small" href="https://apps.apple.com/app/feed/id6777745037">Choisir le mensuel</a>
       </div>
     </div>
   </div>
@@ -521,6 +559,10 @@
         <p>Non. Aucune collecte, aucun tracker, aucune publicité, aucun SDK tiers. Tout se passe sur ton iPhone. Feed ne gagne rien à ce que tu restes connecté — c'est même l'inverse.</p>
       </details>
       <details>
+        <summary>Mon compte Instagram reste-t-il en sécurité ?</summary>
+        <p>Oui. Tu te connectes directement à ton compte dans Feed : l'app ne collecte ni ne stocke ton identifiant ou ton mot de passe. Ta session reste sur ton iPhone.</p>
+      </details>
+      <details>
         <summary>Sur quels appareils Feed fonctionne-t-il ?</summary>
         <p>Feed est disponible sur iPhone (iOS 17.0 ou ultérieur), en français, sur l'<a href="https://apps.apple.com/app/feed/id6777745037">App Store</a>.</p>
       </details>
@@ -530,11 +572,11 @@
 
 <!-- ============ FINAL CTA ============ -->
 <section class="final">
-  <h2>Et si tu récupérais un mois par an ?</h2>
-  <p class="lead">3 jours d'essai gratuit. Aucune donnée collectée. Annulable en deux taps.</p>
+  <h2>Et si Instagram redevenait un choix ?</h2>
+  <p class="lead">3 jours d'essai gratuit · 29,99 € / an · Aucune donnée collectée.</p>
   <a class="cta" href="https://apps.apple.com/app/feed/id6777745037">
     <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.53 4.08ZM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25Z"/></svg>
-    Télécharger Feed sur l'App Store
+    Essayer Feed 3 jours gratuitement
   </a>
 </section>
 

@@ -1,0 +1,38 @@
+{
+  "schema": 1,
+  "version": 1,
+  "minAppBuild": 13,
+  "note": "Regles de filtrage Feed servies aux apps installees. Pour reparer une casse Instagram : editer ce fichier, INCREMENTER version, commit+push. Les apps le recuperent sous 6h (ou immediatement via Reglages > Verifier les mises a jour). Ne jamais baisser version. minAppBuild protege les builds trop anciens.",
+  "reelNavSelectors": [
+    "a[href='/reels/']",
+    "a[href^='/reels']",
+    "[aria-label='Reels']",
+    "svg[aria-label='Reels']",
+    "a[href^='/reels'] ~ *:empty"
+  ],
+  "reelCardSelectors": [
+    "a[href*='/reel/']",
+    "a[href*='/reels/']",
+    "a[href*='/reels/audio/']"
+  ],
+  "hideSelectors": [
+    "a[href^='instagram://']",
+    "a[href^='intent://']"
+  ],
+  "reelPathPrefixes": [
+    "/reels",
+    "/reel/"
+  ],
+  "openAppPattern": "utiliser l'?application|use the app|use app|open instagram|ouvrir instagram|open in app|open the app|continuer dans l'?application|continue in the app|voir sur l'?application|see on the app",
+  "cardContainerSelectors": [
+    "article",
+    "[role='presentation']"
+  ],
+  "audit": {
+    "enabled": true,
+    "firstDelayMs": 3500,
+    "intervalMs": 20000,
+    "minLeakArea": 2400,
+    "degradeAfter": 3
+  }
+}
