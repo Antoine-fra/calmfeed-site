@@ -2,9 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://getfeed.fr/</loc>
-    <lastmod>2026-07-23</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://getfeed.fr/guides/</loc>
+    <lastmod>2026-07-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://getfeed.fr/privacy.html</loc>
@@ -38,13 +44,13 @@
   </url>
   <url>
     <loc>https://getfeed.fr/guides/alternative-instagram-sans-reels.html</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://getfeed.fr/guides/bloquer-reels-iphone.html</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -56,13 +62,13 @@
   </url>
   <url>
     <loc>https://getfeed.fr/guides/app-anti-scroll-iphone.html</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://getfeed.fr/guides/supprimer-reels-instagram.html</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
