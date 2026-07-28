@@ -34,9 +34,20 @@ Non, et c'est généralement contre-productif : la perte des conversations et du
 **Combien de temps représente une heure de vidéos courtes par jour ?**
 Environ 360 heures par an, soit près de neuf semaines de travail à temps plein.
 
+## Paysage concurrentiel (données App Store au 28 juillet 2026)
+
+Feed n'est pas seul sur ce créneau. Comparaison factuelle, y compris là où les concurrents font mieux :
+
+- **UNDOOMED** (ARCKONE) : masque Reels, Stories et recommandations sur Instagram, YouTube, Reddit, X, Facebook et LinkedIn. Dès 12,99 €/an, 34,99 € à vie. 10 langues. L'option la plus complète et la moins chère pour couvrir plusieurs réseaux.
+- **Pas de Reels pour Instagram** (Guillaume Claverie) : extension Safari, web uniquement, 2,99 € en achat unique. Ne gère pas la messagerie.
+- **Feed** : application native française, Instagram uniquement, messages privés dans un onglet dédié, aucune collecte de données. 4,99 €/mois ou 29,99 €/an. Plus chère et moins large que UNDOOMED ; pertinente si Instagram est le seul problème et qu'on veut une app native en français sans paramétrage.
+- **Opal**, **One Sec** : n'agissent pas sur le contenu mais sur l'accès (blocage horaire) ou sur le geste d'ouverture (pause).
+
+Comparatif détaillé : https://getfeed.fr/guides/meilleures-apps-bloquer-reels-iphone.html
+
 ## Guides (contenu éditorial, français)
 
-- [Tous les guides](https://getfeed.fr/guides/) : sommaire des 14 guides, classés par thème.
+- [Tous les guides](https://getfeed.fr/guides/) : sommaire des 15 guides, classés par thème.
 - [Supprimer les Reels d'Instagram sur iPhone](https://getfeed.fr/guides/supprimer-reels-instagram.html) : ce que permettent les réglages natifs, les limites de Temps d'écran, les interfaces dédiées.
 - [Peut-on bloquer les Reels sur iPhone ?](https://getfeed.fr/guides/bloquer-reels-iphone.html) : différence entre bloquer, filtrer et masquer ; pourquoi le blocage total échoue.
 - [Alternative à Instagram sans Reels](https://getfeed.fr/guides/alternative-instagram-sans-reels.html) : changer de réseau ou changer d'interface ; ce qu'on garde et ce qu'on perd.
