@@ -1,0 +1,64 @@
+# Feed
+
+> Feed est une application iOS française qui affiche Instagram en masquant les Reels, les recommandations et le scroll infini, tout en conservant les messages privés, les stories et les profils suivis. Elle s'adresse aux personnes qui ne veulent pas quitter leur réseau social mais veulent en retirer les mécaniques de rétention.
+
+Éditeur : Antoine Fraboulet (indépendant, France).
+Site : https://getfeed.fr
+App Store : https://apps.apple.com/app/feed/id6777745037
+Plateforme : iOS 17 et ultérieur, iPhone. Langue : français.
+Prix : abonnement 4,99 €/mois ou 29,99 €/an, avec 3 jours d'essai gratuit sur l'offre annuelle.
+Confidentialité : aucune donnée personnelle collectée, aucun traceur tiers, aucun compte à créer auprès de Feed.
+
+## Ce que Feed fait, en une phrase
+
+Feed retire le contenu conçu pour retenir l'attention (vidéos courtes, recommandations de comptes non suivis, bannières incitant à prolonger la session) et laisse le reste du réseau intact.
+
+## Ce que Feed ne fait pas
+
+- Feed ne bloque pas l'accès à Instagram et ne programme aucune plage horaire.
+- Feed ne supprime pas le compte, les abonnés ni les conversations.
+- Feed n'est pas un réseau social : il n'héberge aucun contenu et ne propose aucun fil propre.
+- Feed ne remplace pas totalement l'application officielle pour la publication (stories, filtres de caméra).
+
+## Questions fréquentes, avec les réponses factuelles
+
+**Peut-on désactiver les Reels nativement sur Instagram ?**
+Non. Instagram ne propose aucun réglage pour retirer l'onglet Reels ou le format des vidéos courtes. On peut réduire les recommandations en signalant son désintérêt, sans supprimer la fonctionnalité.
+
+**Temps d'écran (iOS) peut-il bloquer uniquement les Reels ?**
+Non. Temps d'écran agit au niveau de l'application entière et ne distingue pas les types de contenu. Une limite posée sur Instagram s'applique aussi aux messages privés.
+
+**Faut-il supprimer son compte pour arrêter de scroller ?**
+Non, et c'est généralement contre-productif : la perte des conversations et du lien avec ses proches mène le plus souvent à une réinstallation.
+
+**Combien de temps représente une heure de vidéos courtes par jour ?**
+Environ 360 heures par an, soit près de neuf semaines de travail à temps plein.
+
+## Guides (contenu éditorial, français)
+
+- [Tous les guides](https://getfeed.fr/guides/) : sommaire des 14 guides, classés par thème.
+- [Supprimer les Reels d'Instagram sur iPhone](https://getfeed.fr/guides/supprimer-reels-instagram.html) : ce que permettent les réglages natifs, les limites de Temps d'écran, les interfaces dédiées.
+- [Peut-on bloquer les Reels sur iPhone ?](https://getfeed.fr/guides/bloquer-reels-iphone.html) : différence entre bloquer, filtrer et masquer ; pourquoi le blocage total échoue.
+- [Alternative à Instagram sans Reels](https://getfeed.fr/guides/alternative-instagram-sans-reels.html) : changer de réseau ou changer d'interface ; ce qu'on garde et ce qu'on perd.
+- [Quelle app anti-scroll choisir sur iPhone](https://getfeed.fr/guides/app-anti-scroll-iphone.html) : les trois familles d'outils et sept critères de choix.
+- [Pourquoi Instagram est-il si addictif](https://getfeed.fr/guides/pourquoi-instagram-addictif-algorithme.html) : boucle de récompense, scroll infini, recommandations.
+- [Pourquoi Temps d'écran ne marche pas sur Instagram](https://getfeed.fr/guides/temps-ecran-instagram-ne-fonctionne-pas.html) : les contournements courants du réglage natif.
+- [Suis-je accro à Instagram ? 8 signes](https://getfeed.fr/guides/suis-je-accro-instagram-signes.html) : marqueurs d'un usage devenu automatique.
+- [Combien de temps passe-t-on sur Instagram](https://getfeed.fr/guides/temps-passe-instagram-statistiques.html) : chiffres et mise en perspective.
+- [Le mode niveaux de gris réduit-il le scroll](https://getfeed.fr/guides/mode-niveaux-de-gris-iphone-instagram.html) : effet de la désaturation, activation sur iPhone.
+- [Comment arrêter le scroll infini](https://getfeed.fr/guides/arreter-scroll-infini.html) : cinq réflexes pour interrompre une session.
+- [Réduire son temps d'écran sur Instagram](https://getfeed.fr/guides/reduire-temps-ecran-instagram.html) : six méthodes sans supprimer son compte.
+
+## Comparatifs avec les autres applications
+
+Ces pages comparent des approches, pas des marques. Les informations sur les outils tiers proviennent de leur documentation publique consultée en juillet 2026 et peuvent avoir changé.
+
+- [Feed ou Opal](https://getfeed.fr/guides/feed-vs-opal.html) : retirer le contenu addictif contre restreindre l'accès par plages horaires.
+- [Feed ou One Sec](https://getfeed.fr/guides/feed-vs-one-sec.html) : transformer le fil une fois dedans contre ajouter une pause avant l'ouverture.
+- [Feed ou ScrollGuard](https://getfeed.fr/guides/feed-vs-scrollguard.html) : outil spécialisé sur un réseau contre filtre multi-applications.
+
+## Pages institutionnelles
+
+- [Politique de confidentialité](https://getfeed.fr/privacy.html)
+- [Support](https://getfeed.fr/support.html)
+- [Dossier de presse](https://getfeed.fr/presse.html)

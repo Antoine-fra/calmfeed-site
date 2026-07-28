@@ -2,3 +2,6 @@ User-agent: *
 Allow: /
 
 Sitemap: https://getfeed.fr/sitemap.xml
+
+# Ressources pour les moteurs et agents
+# llms.txt : https://getfeed.fr/llms.txt
