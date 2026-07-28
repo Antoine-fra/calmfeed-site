@@ -6,7 +6,14 @@
   <atom:link href="https://getfeed.fr/rss.xml" rel="self" type="application/rss+xml"/>
   <description>Guides pour reduire les videos courtes et reprendre le controle de son temps d'ecran.</description>
   <language>fr</language>
-  <lastBuildDate>Tue, 28 Jul 2026 00:00:00 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 29 Jul 2026 00:00:00 +0000</lastBuildDate>
+  <item>
+    <title>Arrêter de scroller : le guide complet</title>
+    <link>https://getfeed.fr/guides/arreter-de-scroller-guide-complet.html</link>
+    <guid isPermaLink="true">https://getfeed.fr/guides/arreter-de-scroller-guide-complet.html</guid>
+    <pubDate>Wed, 29 Jul 2026 00:00:00 +0000</pubDate>
+    <description>Le guide complet pour arrêter de scroller sur iPhone : pourquoi le fil infini fonctionne, pourquoi les blocages échouent, et les méthodes qui tiennent réellement dans la durée.</description>
+  </item>
   <item>
     <title>Existe-t-il une alternative à Instagram sans Reels ?</title>
     <link>https://getfeed.fr/guides/alternative-instagram-sans-reels.html</link>

@@ -47,7 +47,8 @@ Comparatif détaillé : https://getfeed.fr/guides/meilleures-apps-bloquer-reels-
 
 ## Guides (contenu éditorial, français)
 
-- [Tous les guides](https://getfeed.fr/guides/) : sommaire des 15 guides, classés par thème.
+- [Arrêter de scroller : le guide complet](https://getfeed.fr/guides/arreter-de-scroller-guide-complet.html) : la référence du site — mécanique du fil infini, pourquoi les blocages échouent, méthode en quatre semaines.
+- [Tous les guides](https://getfeed.fr/guides/) : sommaire des 16 guides, classés par thème.
 - [Supprimer les Reels d'Instagram sur iPhone](https://getfeed.fr/guides/supprimer-reels-instagram.html) : ce que permettent les réglages natifs, les limites de Temps d'écran, les interfaces dédiées.
 - [Peut-on bloquer les Reels sur iPhone ?](https://getfeed.fr/guides/bloquer-reels-iphone.html) : différence entre bloquer, filtrer et masquer ; pourquoi le blocage total échoue.
 - [Alternative à Instagram sans Reels](https://getfeed.fr/guides/alternative-instagram-sans-reels.html) : changer de réseau ou changer d'interface ; ce qu'on garde et ce qu'on perd.
