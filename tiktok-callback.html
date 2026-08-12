@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>autorisation tiktok</title>
+<style>
+  body{margin:0;padding:40px 20px;background:#080710;color:#F2EDE4;
+       font:16px/1.6 -apple-system,system-ui,sans-serif}
+  main{max-width:640px;margin:0 auto}
+  h1{font-size:20px;margin:0 0 20px}
+  code{display:block;background:#1C1C40;border:2px solid #7c5cff;border-radius:12px;
+       padding:16px;margin:16px 0;word-break:break-all;font-size:15px;user-select:all}
+  p{opacity:.85}
+  .err{color:#ff6b6b}
+</style>
+</head>
+<body>
+<main>
+  <h1>autorisation tiktok</h1>
+  <div id="out"><p>lecture de la réponse…</p></div>
+</main>
+<script>
+  // Page de retour OAuth. Elle n'envoie rien nulle part : elle affiche le code
+  // pour qu'il soit recopié dans le terminal. Aucun secret ne transite ici.
+  const q = new URLSearchParams(location.search)
+  const out = document.getElementById("out")
+  if (q.get("error")) {
+    out.innerHTML = '<p class="err">tiktok a refusé : ' +
+      q.get("error") + " " + (q.get("error_description") || "") + "</p>"
+  } else if (q.get("code")) {
+    out.innerHTML = "<p>copie ce code et colle le dans le terminal :</p>" +
+      "<code>" + q.get("code") + "</code>" +
+      "<p>puis lance <strong>python3 tiktok.py exchange &lt;code&gt;</strong>. " +
+      "il n'est valable que quelques minutes.</p>"
+  } else {
+    out.innerHTML = "<p>aucun code dans l'adresse. relance l'autorisation.</p>"
+  }
+</script>
+</body>
+</html>
